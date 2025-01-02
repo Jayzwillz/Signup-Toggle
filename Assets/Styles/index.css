@@ -1,0 +1,114 @@
+body {
+  background-color: blueviolet;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+}
+
+#contents {
+  padding: 40px;
+  background-color: #967add;
+  box-shadow: 0px 2px 20px 0px coral;
+}
+
+#buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.acc-pass {
+  width: 250px;
+  height: 40px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+p {
+  font-size: 20px;
+  color: #353f8d;
+}
+
+.name-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  height: 30px;
+  border: none;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.submit {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #3f51b5;
+  border: 3px #2196f3 solid;
+  color: #ffffff;
+}
+
+.password-input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#for-password {
+  display: none;
+}
+
+#account {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 650px) {
+  .acc-pass {
+    width: 150px;
+    height: 40px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 450px) {
+  .acc-pass {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p,
+  label {
+    font-size: 15px;
+  }
+
+  #contents {
+    padding: 20px;
+  }
+
+  .submit {
+    width: 70px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px #2196f3 solid;
+  }
+}

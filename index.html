@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Page by Jayzwillz</title>
+    <link rel="stylesheet" href="./Assets/Styles/index.css" />
+  </head>
+  <body>
+    <main>
+      <div id="contents">
+        <div id="buttons">
+          <button id="account" class="acc-pass">Account</button>
+          <button id="password" class="acc-pass">Password</button>
+        </div>
+        <div id="for-account" class="content">
+          <h1>Account</h1>
+          <p>
+            Make changes to your account here! Click save when you are done.
+          </p>
+
+          <form action="" autocomplete="on">
+            <div class="name-input">
+              <label for="Name">Name</label>
+              <input type="text" id="Name" autocomplete="name" required />
+            </div>
+
+            <div class="name-input">
+              <label for="Username">Username</label>
+              <input
+                type="text"
+                id="Username"
+                autocomplete="username"
+                required
+              />
+            </div>
+
+            <button class="submit">Submit</button>
+          </form>
+        </div>
+
+        <div id="for-password" class="content">
+          <h1>Password</h1>
+          <p>
+            Change your password here. After saving, you will be logged out.
+          </p>
+
+          <form action="" autocomplete="on">
+            <div class="password-input">
+              <label for="Current-Password">Current Password</label>
+              <input
+                type="password"
+                id="Current-Password"
+                autocomplete="current-password"
+                required
+              />
+            </div>
+
+            <div class="password-input">
+              <label for="New-Password">New Password</label>
+              <input
+                type="password"
+                id="New-Password"
+                autocomplete="new-password"
+                required
+              />
+            </div>
+
+            <button class="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script src="./Assets/scripts/index.js"></script>
+  </body>
+</html>
