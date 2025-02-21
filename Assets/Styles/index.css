@@ -1,5 +1,5 @@
 body {
-  background-color: blueviolet;
+  background: linear-gradient(rgb(5, 5, 5), rgb(0, 0, 26), rgb(0, 0, 26), rgb(5, 5, 5)); 
 }
 
 main {
@@ -10,8 +10,8 @@ main {
 
 #contents {
   padding: 40px;
-  background-color: #967add;
-  box-shadow: 0px 2px 20px 0px coral;
+  background-color: rgb(40, 40, 133);
+  color: rgb(179, 171, 171);
 }
 
 #buttons {
@@ -30,7 +30,7 @@ main {
 
 p {
   font-size: 20px;
-  color: #353f8d;
+  color:rgb(179, 171, 171);
 }
 
 .name-input {
@@ -52,13 +52,18 @@ input {
 }
 
 .submit {
-  width: 100px;
-  height: 50px;
-  font-size: 20px;
+  padding: 16px 20px;
+  font-size: 18px;
   font-weight: bold;
-  background-color: #3f51b5;
-  border: 3px #2196f3 solid;
+  background-color: #27272b;
+  border: none;
   color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit:hover{
+  background-color: #151516;
 }
 
 .password-input {
@@ -104,11 +109,5 @@ input {
     padding: 20px;
   }
 
-  .submit {
-    width: 70px;
-    height: 40px;
-    font-size: 15px;
-    font-weight: bold;
-    border: 2px #2196f3 solid;
-  }
+  
 }
